@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width:1349px;
+	height: 2000px;
+	font-family: "微软雅黑";
+	background-color:#fafafa;
+}
+.picture{
+	height: 248px;
+	width: 100%;
+	background-color: #f1a750;
+	text-align: center;
+}
+.box{
+	width: 1200px;
+	height: 248px;
+	margin: auto;
+	color: white;
+	font-weight: 600;
+}
+.box img{
+	float: left;
+}
+.box .sp2,.box .sp3{
+	font-size: 16px;
+}
+.box .sp2{
+	position: relative;
+	top: 150px;
+	right: 210px;
+}
+.box .sp3{
+	position: relative;
+	top: 120px;
+	right:58px;
+}
+.box .sp1{
+	font-family: mflangqian noncommercial;
+	font-size:35px;
+	position: relative;
+	right:70px;
+	top:120px;
+}
+.box .sp4{
+	font-size:40px;
+	position: relative;
+	top: 116px;
+	right: 30px; 
+}
+.content{
+	width: 1200px;
+	height: 1412px;
+	margin: auto;
+}
+.content .sp1{
+	display:block;
+	float: left;
+	margin-top: 40px;
+	font-size: 16px;
+}
+.content .title{
+	display: block;
+	font-size: 16px;
+	color:#63bf95; 
+	text-decoration: none;
+	position: relative;
+	top: 40px;
+}
+.content .Sidebar{
+	width: 303px;
+	height: 707px;
+	background-color: white;
+	margin-top: 80px;
+	text-align: center;
+}
+.content .Sidebar h2{
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 62px;
+	width: 100%;
+	border-bottom: 1px solid #e6e6e6;
+	margin: 0;
+}
+.content .Sidebar ul{
+	list-style: none;
+	text-align: left;
+	margin:50px 0 0 117px; 
+}
+.content .Sidebar li{
+	margin: 30px 0;
+	display:block;
+	height: 21px;
+	text-decoration: none;
+}
+.content .Sidebar span{
+	display: block;
+	float: left;
+	color: #29b078;
+}
+.content .Sidebar .circle{
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	border: 1px solid #ff7527;
+	float: left;
+	margin: 4.5px 5px 0 0;
+}
+.content .Sidebar li:hover span{
+	color: #ff7527;
+}
+.content .Sidebar li:hover .circle{
+	background-color: #ff7527;
+}
+.content .introduce{
+	height: 1100px;
+	width: 870px;
+	background-color: white;
+	float:right;
+	position: relative;
+	top: -707px;
+}
+.content .introduce .top{
+	height: 158px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.content .introduce img{
+	margin:61px 20px 20px 84px; 
+	float: left;
+}
+.content .introduce p{
+	margin:40px 30px ;
+	font-size: 14px;
+	color: #999;
+}
+.content .introduce .article p{
+	text-indent: 2em;
+}

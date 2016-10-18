@@ -1,0 +1,62 @@
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	html{
+		font-size:62.5%;
+	}
+	body{
+		background-color: rgb(104,205,213);
+	}
+	.head{
+		height:8.8rem;
+		background-color: rgb(34,41,44);
+	}
+	.left{
+		float: left;
+	}
+	.head h2{
+		line-height: 8.8rem;
+		font-size: 3.4rem;
+		color: white;
+		font-family: hiragino sans gb;
+		text-align: center;
+	}
+	.right{
+		float:right;
+	}
+	.main{
+		text-align: center;
+	}
+	.back{
+		float: left;
+	}
+	.logo{
+		margin:10% auto;
+	}
+	.main p{
+		width:70%;
+		text-align:justify;
+		margin: auto;
+		font-size: 3rem;
+		line-height: 5.42rem;
+		color: white;
+	}
+	.foot{
+		overflow: hidden;
+		margin-top:4rem;
+	}
+	.pic1{
+		float: left;
+		margin-left: 4rem;
+	}
+	.pic2{
+		float: right;
+		margin-right: 4rem;
+	}
+	.main span{
+		font-size: 2.4rem;
+		line-height: 5.4rem;
+		color: white;
+		display: block;
+	}
