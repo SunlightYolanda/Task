@@ -1,0 +1,106 @@
+/*顶部及导航*/
+.header{
+	height: 39px;
+	font-size: 14px;
+	line-height: 39px;
+	color: #29b078;
+	width: 1200px;
+	margin: auto;
+}
+.header img{
+	float: right;
+}
+.nav{
+	height: 99px;
+	background-color:#29b078; 
+}
+.nav .box{
+	width: 1200px;
+	height: 99px;
+	margin: auto;
+}
+.nav .box img{
+	height: 99px;
+}
+.nav ul{
+	float: right;
+	margin-right: -30px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	line-height: 95px;
+	display: block;
+}
+.nav ul a.home{
+	border-bottom: 4px solid white;
+}
+.nav ul li a:hover{
+	border-bottom: 4px solid white;
+}
+.nav ul li {
+	float: left;
+	list-style: none;
+	width: 100px;
+	text-align: center;
+}
+/*底部*/
+.footer{
+	height: 202px;
+	background-color:#26a26f;
+	font-size: 16px;
+	color: white;
+	width: 100%;
+	overflow: hidden;
+}
+.foot-top{
+	width: 1200px;
+	height: 173px;
+	margin: auto;
+}
+.footer .left, .footer .right{
+	float: left;
+	margin-top: 30px;
+	line-height: 40px;
+}
+.footer .right{
+	margin-left:90px;
+}
+.footer .left table{
+	margin-top: 40px;
+}
+.footer .left caption{
+	position: relative;
+	top: -40px;
+	left: -40px;
+}
+.footer .left .call-us a{
+	margin: 0 10px;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+}
+.footer .right caption{
+	position: relative;
+	left: -93px;
+}
+.footer a{
+	text-decoration: none;
+	color: white;
+}
+.footer .right a{
+	margin-right: 20px;
+}
+.footer .weixin{
+	width: 120px;
+	height: 100px;
+	text-align: center;
+	float: right;
+	margin:38px 10px 0 0; 
+}
+.footer .bottom{
+	height:30px;
+	color: white;
+	text-align: center;	 
+	border-top: 1px solid #32c086;
+}
