@@ -1,0 +1,161 @@
+   *{
+		padding: 0;
+		margin: 0;
+		
+    }
+    body{
+    	background-color: rgb(222,222,222);
+    	font-size: 15px;
+    	font-weight: 600;
+    }
+    img{
+    	max-width: 100%;
+    	height: auto;
+    }
+    p{
+    	text-indent: 2em;
+    	line-height: 20px;
+    }
+    li{
+    	line-height: 30px;
+    	margin-bottom: 10px;
+    }
+    
+    h1{
+    	font-size: 25px;
+    	line-height:60px;
+    }
+    h2{
+    	font-size: 18px;
+    	line-height: 25px;
+    	padding:10px 0;
+    }
+    .sp{
+    	font-size: 10px;
+    	line-height: 30px;
+    	padding:15px 0;
+    	font-weight:"low"; 
+    }
+	.top{
+		height: 60px;
+		background-color: rgb(51,51,51);
+	}
+	.top img{
+		position: absolute;
+		left: 20px;		
+		height: 60px;
+		width: 60px;
+	}
+	.list1{
+		float: right;
+		list-style-type: disc;
+	}
+	.list1 li{
+
+		float: left;
+		font-size: 10px;
+	}
+	.list1 li a{
+		margin-right: 10px;
+		display: block;
+		height: 60px;
+		line-height: 60px;
+		padding-right: 15px;
+		color: white;
+		text-decoration: none;
+	}
+	.main_1,.main_2,.main_3,.main_4,.main_5{
+		margin:20px;
+		padding:30px;
+		background-image: url("img/bg.png");
+		box-shadow:0 0 15px grey;
+	}
+	.main_2 li,.main_3 li{
+		list-style-type: none;
+	}
+	.main_2 li{
+		margin-left:40px;
+	}
+	.main_3 img{
+		height: 70px;
+		width: 70px;
+	}
+	.main_3 li{
+		text-align: center;
+		height: 120px;
+		width: 120px;
+		border: 1px solid black;
+		margin: 10px;
+	}
+	.main_3 span{
+		padding-top: 3px;
+		display: block;
+		width:100%;
+	}
+	.main_4 li{
+		margin-left:40px;
+	}
+	.main_4 table{
+		border-collapse: collapse;
+		border-color: rgb(230,230,230);
+		text-align: left;
+		width: 1200px;
+		height: 150px;
+		font-size: 13px;
+		font-weight: 500;
+	}
+	.main_4 th{
+		color: white;
+		background-color: rgb(51,51,51);
+	}
+	.tr_foot{
+		background-color: rgb(204,204,204);
+		border-color: rgb(204,204,204);
+
+	}
+	.celan{
+		padding-left: 5px;
+		border-left: 4px solid rgb(204,204,204);
+	}
+	.main_5 table{
+		line-height: 40px;
+		
+	}
+	.main_5 th{
+		text-align: right;
+	}
+	.maon_5 input{
+		line-height: 40px;
+	}
+	.main_5 span{
+		font-size:10px;
+		color: grey;
+	}
+	.main_5 form{
+		position: relative;
+		left: 300px;
+	}
+	.text{
+		line-height: 25px;
+	}
+	.introduce{
+		position: relative;
+   	 	bottom: 67px;
+	}
+	button{
+		height: 40px;
+		width: 1180px;
+		background-color: rgb(51,85,208);
+		color: white;
+		border-radius:10px;
+		font-size: 20px;
+		cursor: pointer;
+	}
+	.foot{
+		height: 70px;
+		background-color: rgb(0,0,0);
+		color: white;
+		font-size: 15px;
+		text-align: center;
+		padding-top: 20px;
+	}
