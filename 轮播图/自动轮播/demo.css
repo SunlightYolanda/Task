@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+	height: 300px;
+	width:1600px;
+	position: relative;
+
+}
+img{
+	width: 400px;
+	height: 300px;
+}
+.slideShow{
+	width: 400px;
+	height: 300px;
+	border: 1px solid #eee;
+	position: relative;
+	overflow: hidden;
+	margin:100px auto;
+}
+
+.slideShow ul li{
+	float: left;
+}
+.slideShow ul li a{
+	display:block;
+	width: 400px;
+}
+.slideShow .btns{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 20px;
+}
+.slideShow .btns span{
+	display: block;
+	border-radius: 10px;
+	cursor: pointer;
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin:0 5px;
+	background:#E6EDEC;
+}
+.slideShow .btns .active{
+	background:  #b63e1a;
+}
